@@ -25,6 +25,8 @@ Run the script with `python3 quote_to_image.py`, from the same folder as the csv
 
 If you only want to generate x images (say, for testing how a font or a quote looks), you can pass a number as an argument to the script — `python3 quote_to_image.py 5` will only process the first 5 lines in the csv file (excluding the header).
 
+If the quotes.csv file has more than 1440 quotes 9the number of minutes in a day), it will error at the end. It still creates all 1440 images needed though. The kindle clock can support multiple images per minute... at some point I may just have it put the extras as duplciate times.
+
 ## Credits
 
 Thanks to [tjaap](https://www.instructables.com/Literary-Clock-Made-From-E-reader/) for creating the original version of this script in PHP.
