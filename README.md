@@ -2,6 +2,11 @@
 
 This contains a Python script to convert a CSV list of quotes into png images that are suitable for use with the Kindle clock at https://github.com/avalonv/literaryclock/tree/main . 
 
+<p align="center">
+<img src="https://github.com/brianpipa/quotes_to_clock_images_for_kindle/blob/master/sample.png" width="400">
+</p>
+
+
 The format is quite simple if you want to add new quotes or edit existing ones
 
 `quote |Author`
